@@ -1,0 +1,10 @@
+nav.Menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2.menu-title {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+}

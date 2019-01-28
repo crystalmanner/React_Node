@@ -1,0 +1,20 @@
+.Footer {
+    background-image: -webkit-linear-gradient(right bottom, #051937, #1d223e, #2e2d45, #3d384c, #4b4453);
+    background-image: linear-gradient(to left top, #051937, #1d223e, #2e2d45, #3d384c, #4b4453);
+    height: 10rem;
+    font-size: xx-small;
+    color: #FFF;
+}
+.Footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center
+}
+.Footer-copyright {
+    grid-column: 1 / span 2
+}

@@ -1,0 +1,10 @@
+.Search {
+    max-width: 40rem;
+    height: 4rem;
+    margin: 5rem auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F4F7;
+
+}

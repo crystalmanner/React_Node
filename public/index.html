@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HYF - Real Estate</title>
+</head>
+<body>
+  <h1>HYF - Real Estate</h1>
+  <a href="/api/properties">GET /api/properties</a><br/>
+  <a href="/api/stats">GET /api/stats</a><br />
+  
+  <br/>
+  
+  <form action="/api/contribute" enctype="application/x-www-form-urlencoded" method="post">
+    <textarea
+      name="data"
+      style="font-family: 'Courier New', Courier, monospace; width: 500px; height: 300px; font-size: 16px;"
+      placeholder='valid json array, like - [{"a": 1}] or [1,2,3]'
+    ></textarea>
+    <br/>
+    <button type="submit">POST /api/contribute</button>
+  </form>
+</body>
+</html>

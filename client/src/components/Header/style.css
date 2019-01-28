@@ -1,0 +1,15 @@
+.Header {
+    background-image: -webkit-linear-gradient(left top, #a22e4f, #c34a36);
+    background-image: linear-gradient(to right bottom, #a22e4f, #c34a36);
+    height: 4rem;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 10rem;  
+}
+h2.menu-Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
